@@ -1,0 +1,60 @@
+:root{
+    --color-morado-claro:#8858edff;
+    --color-blanco:#ffffffff;
+    --color-negro:#060506ff;
+    --color-gray:#232223ff;
+    --color-morado-oscuro:#281a3aff;
+    --monserat:'Montserrat', sans-serif;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    
+}
+
+*,*::after,*::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:inherit;
+}
+body {
+    font-size: 1.6rem;
+    font-family:"Arial",Helvetica,sans-serif; ;
+}
+
+
+
+header{
+    background-color: var(--color-morado-oscuro);
+    width: 100%;
+}
+
+.fondo-header{
+    padding: 3rem 2rem 2.7rem;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.container{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.img-header{
+    width: 100%;
+    
+}
+
+.logo-header{
+    display: flex;
+    gap: 10px;
+}
+.logo-header a {
+    
+    color: var(--color-blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: var(--monserat);
+    
+}
