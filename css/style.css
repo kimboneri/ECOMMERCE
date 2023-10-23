@@ -342,5 +342,35 @@ header{
     }
   }
 
-  
+  .section-3{
+    padding-bottom:7.7rem ;
+    background-color: var(--color-gray);
+
+  }
+
+  .section-3 h2 {
+    font-family: var(--monserat);
+    color: var(--color-blanco);
+    padding: 7rem 0;
+    font-size: 4.5rem;
+  }
+  .boxs-category {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .box-category  {
+   width: 53rem;
+   
+  }
+  .box-category img {
+    border-radius: 3rem;
+    object-fit: cover;
+    width: 100%;
+  }
+  .box-category h3 {
+    padding: 2rem 0;
+    text-align: center;
+    color: var(--color-blanco);
+  }
 
